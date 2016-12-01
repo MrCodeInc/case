@@ -1,7 +1,6 @@
 <title>Case Opener</title>
 Case Opener
-
-
+<p> </p>
 <?php
 $messages = array(
     'You got a noodle!',
