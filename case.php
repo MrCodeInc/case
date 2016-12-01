@@ -1,3 +1,7 @@
+<title>Case Opener</title>
+Case Opener
+
+
 <?php
 $messages = array(
     'You got a noodle!',
@@ -10,3 +14,7 @@ $messages = array(
 );
 echo $messages[rand(0, count($messages) - 10)];
 ?>
+
+<form action="index.php" method="get">
+  <input type="submit" value="Go back">
+</form>
